@@ -1,0 +1,6 @@
+<setting>
+    <presenter>
+        <name>Category</name>
+        <resource>category</resource>
+    </presenter>
+</setting>
