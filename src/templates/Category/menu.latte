@@ -1,5 +1,5 @@
 <ul class="submenu">
-    <li><a n:href="default">{_'category.category'}</a></li>
-    <li><a n:href="new">{_'category.newCategory'}</a></li>
+    <li><a n:href="default" n:class="$presenter->getAction() == 'default' ? active">{_'category.category'}</a></li>
+    <li><a n:href="new" n:class="$presenter->getAction() == 'new' ? active">{_'category.newCategory'}</a></li>
 </ul>
 <div class="clearfix"></div>
